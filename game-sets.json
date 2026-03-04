@@ -1,0 +1,21 @@
+{
+    "arrows": {
+      "up": "/Users/seoyoungpark/Documents/savin's doc/@publish/HD2SM/resource/arrow-up.svg",
+      "down": "/Users/seoyoungpark/Documents/savin's doc/@publish/HD2SM/resource/arrow-down.svg",
+      "left": "/Users/seoyoungpark/Documents/savin's doc/@publish/HD2SM/resource/arrow-left.svg",
+      "right": "/Users/seoyoungpark/Documents/savin's doc/@publish/HD2SM/resource/arrow-right.svg"
+    },
+    "sets": [
+      {
+        "icon": "/Users/seoyoungpark/Documents/savin's doc/@publish/HD2SM/resource/stratagem/Bridge/HMG Emplacement.svg",
+        "title": "HMG Emplacement",
+        "arrows": ["up", "down", "left"]
+      },
+      {
+        "icon": "/Users/seoyoungpark/Documents/savin's doc/@publish/HD2SM/resource/stratagem/Bridge/Orbital EMS Strike.svg",
+        "title": "Orbital EMS Strike",
+        "arrows": ["left", "right", "up", "down"]
+      }
+    ]
+  }
+  
