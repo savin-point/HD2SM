@@ -2,6 +2,10 @@ import { useEffect, useRef, useState } from "react";
 import ArrowRow from "./ArrowRow";
 import ParticleEffect from "./ParticleEffect";
 import { useLang } from "../i18n";
+import ArrowUp    from "../assets/arrows/arrow-up.svg?react";
+import ArrowDown  from "../assets/arrows/arrow-down.svg?react";
+import ArrowLeft  from "../assets/arrows/arrow-left.svg?react";
+import ArrowRight from "../assets/arrows/arrow-right.svg?react";
 
 export default function GameArea({ state, inputArrow, secondsLeft, totalSeconds, onReset, onStart }) {
   const { lang, t } = useLang();
@@ -72,18 +76,18 @@ export default function GameArea({ state, inputArrow, secondsLeft, totalSeconds,
       <div className="dpad" aria-label="Virtual D-Pad">
         <div className="dpad-top-row">
           <button className="dpad-btn" onClick={() => inputArrow("up")}>
-            <img src="/resource/arrow-up.svg" alt="up" />
+            <ArrowUp className="dpad-arrow" />
           </button>
         </div>
         <div className="dpad-bottom-row">
           <button className="dpad-btn" onClick={() => inputArrow("left")}>
-            <img src="/resource/arrow-left.svg" alt="left" />
+            <ArrowLeft className="dpad-arrow" />
           </button>
           <button className="dpad-btn" onClick={() => inputArrow("down")}>
-            <img src="/resource/arrow-down.svg" alt="down" />
+            <ArrowDown className="dpad-arrow" />
           </button>
           <button className="dpad-btn" onClick={() => inputArrow("right")}>
-            <img src="/resource/arrow-right.svg" alt="right" />
+            <ArrowRight className="dpad-arrow" />
           </button>
         </div>
       </div>
